@@ -1,0 +1,16 @@
+bcrypt==4.2.0         # Se você usa criptografia
+blinker==1.8.2        # Para sinais no Flask (opcional)
+click==8.1.7          # Utilizado pelo Flask
+colorama==0.4.6       # Se você usa cores no terminal (opcional)
+Flask==3.0.3          # Framework principal
+Flask-Login==0.6.3    # Para gerenciamento de login
+Flask-SQLAlchemy==3.1.1  # Integração do Flask com SQLAlchemy
+Flask-WTF==1.2.2      # Formulários WTForms no Flask
+greenlet==3.1.1       # Dependência do SQLAlchemy
+itsdangerous==2.2.0   # Utilizado pelo Flask para segurança
+Jinja2==3.1.4         # Template engine do Flask
+MarkupSafe==3.0.2     # Utilizado pelo Jinja2
+pytz==2024.2          # Se você trabalha com fusos horários
+SQLAlchemy==2.0.36    # ORM do SQLAlchemy
+Werkzeug==3.1.1       # Servidor WSGI do Flask
+WTForms==3.2.1        # Formulários WTForms
