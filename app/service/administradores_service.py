@@ -2,6 +2,7 @@ from ..entity.administradores import Administradores
 from .. import db
 from ..exception.custom_exceptions import EntityNotFound
 
+
 def save_administradores(administrador):
     """Salva um novo administrador no banco de dados."""
     db.session.add(administrador)
